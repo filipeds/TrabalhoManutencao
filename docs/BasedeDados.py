@@ -7,7 +7,7 @@ conn = sqlite3.connect('UsuariosDados.db')
 
 cursor = conn.cursor()
 
-#Cria a tabela dentro do banco de dados
+#Cria uma tabela dentro do banco de dados, para poder utiliza-lá no código.
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS Usuarios (
     Id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
