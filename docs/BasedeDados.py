@@ -1,3 +1,4 @@
+#Autores: Filipe Zanin e Gabriel Macedo
 #BasedeDados = Responsavel por conectar com o banco de dados
 #sqlite3 = essa importação implementa um banco de dados SQL embutido.
 
