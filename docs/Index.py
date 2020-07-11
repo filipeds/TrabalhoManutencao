@@ -1,3 +1,4 @@
+#Autores: Filipe Zanin e Gabriel Macedo.  
 #Index é o responśvel por fazer todas as interações com o cliente.
 #tkinter = biblioteca responsável por criar as interfaces gráficas do projeto.
 #BasedeDados = guarda os dados dos usúarios cadastrados em um banco de dados SQLite3.
