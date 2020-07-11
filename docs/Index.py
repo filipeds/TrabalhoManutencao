@@ -182,6 +182,7 @@ def Login():
             VoteEntry.place(x=205, y=150)
             TituloVotacaoLabel = Label(RIGHTFrame, text='Votação', font=("Consolas", 20), bg="#48514e", fg="white")
             TituloVotacaoLabel.place(x=150, y=5)
+            
             def AnalizarVoto():
                 """
                 Cria o Botão Votar,
@@ -196,6 +197,7 @@ def Login():
                     messagebox.showerror('Voto Info', message='!ERRO! Só seram aceitos números na votação!')
             VoteButton = ttk.Button(RIGHTFrame,text='Votar',width=20, command=AnalizarVoto)
             VoteButton.place(x=209, y=195)
+            
             def MenuOpcoes3():
                 """
                 Permite que o usuário escolha uma entre as opções aprensentadas:
@@ -244,6 +246,7 @@ def Login():
             FilmesIdLabel.place(x=0, y=103)
             MostrarFilmesIdLabel = Label(RIGHTFrame, text=filmes.head(), font=("Consolas", 7), bg="#48514e", fg="white")
             MostrarFilmesIdLabel.place(x=0, y=125)
+            
             def MenuOpcoes2():
                 """
                 Permite que o usuário escolha uma entre as opções aprensentadas:
