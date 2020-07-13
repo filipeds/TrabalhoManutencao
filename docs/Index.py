@@ -67,7 +67,7 @@ PassEntry.place(x=175, y=160)
 
 def cadastrar():
     """
-    Cria os botões e labels que os usuarios utilizam para realizarem o cadastro.
+    Cria os botões e labels que os usuários utilizam para realizarem o cadastro.
     :return:
     """
     #Removendo os botões de login
@@ -86,7 +86,7 @@ def cadastrar():
 
     def CadastrarDados():
         """
-        Examina os dados que os usuarios preencheram, se estiver preenchido corretamente os dados são enviados para o banco de dados
+        Examina os dados que os usuários preencheram, se estiver preenchido corretamente os dados são enviados para o banco de dados
         :returns: messagebox.showinfo(title=Cadastro Info, message=Cadastrado com Sucesso)
         """
         Nome = NomeEntry.get()
@@ -109,7 +109,7 @@ def cadastrar():
 
     def VoltarLogin():
         """
-        Após o usuario ter clicado no botão Voltar na Tela de Cadastro, ele é movido para a Tela de Login
+        Após o usuário ter clicado no botão Voltar na Tela de Cadastro, ele é movido para a Tela de Login
         :return:
         """
         #Removendo Widgtes da Cadastro
@@ -249,7 +249,7 @@ def Login():
             
             def MenuOpcoes2():
                 """
-                Permite que o usuário escolha uma entre as opções aprensentadas:
+                Permite que o usuário escolha uma entre as opções apresentadas:
                 O "Voltar" volta para o "MenuOpcoes2" e o "Busca" vai para o "BuscarFilmes".
 
                 :return:
