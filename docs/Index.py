@@ -10,8 +10,10 @@ from tkinter import ttk
 import BasedeDados
 import pandas as pd
 
+#Pega os dados de outro lugar para podermos utilizar dentro do código
 uri = "https://raw.githubusercontent.com/alura-cursos/introducao-a-data-science/master/aula6.2/movies.csv"
 
+#Altera o nome das colunas para português
 filmes = pd.read_csv(uri)
 filmes.columns = ['Filmes Id', 'Título', 'Generos']
 uri = "https://raw.githubusercontent.com/alura-cursos/introducao-a-data-science/master/aula6.2/ratings.csv"
@@ -93,7 +95,8 @@ def cadastrar():
         Email = EmailEntry.get()
         Username = UserEntry.get()
         Senha = PassEntry.get()
-
+        
+        #notifica que deve preencher todas os campos caso algum esteja faltando
         if (Nome == "" and Email == "" and Username == "" and Senha == ""):
             messagebox.showerror(title="Erro no Cadastro", message="Preencha os Campos.")
 
